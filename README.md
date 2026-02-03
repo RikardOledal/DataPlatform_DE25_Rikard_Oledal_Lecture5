@@ -7,3 +7,12 @@ DataPlatform course at STI
     * Bulk uploading
     * JSON data storage
 
+- fastapi dev main.py
+
+```postgresql
+CREATE TABLE IF NOT EXISTS products_raw (
+id BIGSERIAL PRIMARY KEY,
+created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+product JSONB NOT NULL
+);
+```
