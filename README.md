@@ -1,0 +1,2 @@
+# DataPlatform_DE25_Rikard_Oledal_Lecture5
+DataPlatform course at STI
